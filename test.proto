@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+enum FOO {
+    BAR = 0;
+}
+
+message Test {
+    float num  = 1;
+    string payload = 2;
+    string payloads = 3;
+}
+
+message AnotherOne {
+    FOO list = 1;
+}
